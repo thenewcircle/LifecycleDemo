@@ -25,19 +25,19 @@
 
     <service android:name=".IntentServiceDemo">
       <intent-filter>
-        <action android:name="marakana.intent.action.IntentServiceDemo" />
+        <action android:name="example.intent.action.IntentServiceDemo" />
       </intent-filter>
     </service>
 
     <receiver android:name=".ReceiverDemo">
       <intent-filter>
-        <action android:name="marakana.intent.action.ReceiverDemo" />
+        <action android:name="example.intent.action.ReceiverDemo" />
       </intent-filter>
     </receiver>
 
     <provider
       android:name=".ProviderDemo"
-      android:authorities="com.marakana.android.lifecycle.providerdemo" />
+      android:authorities="com.example.android.lifecycle.providerdemo" />
 
   </application>
 </manifest>

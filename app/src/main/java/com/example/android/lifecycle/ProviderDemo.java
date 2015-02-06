@@ -10,10 +10,10 @@ import android.provider.Settings.System;
 public class ProviderDemo extends ContentProvider {
   static final String TAG = "ProviderDemo";
 
-  static final String AUTHORITY = "content://com.marakana.android.lifecycle.providerdemo";
+  static final String AUTHORITY = "content://com.example.android.lifecycle.providerdemo";
   public static final Uri CONTENT_URI = Uri.parse(AUTHORITY);
-  static final String SINGLE_RECORD_MIME_TYPE = "vnd.android.cursor.item/vnd.marakana.android.lifecycle.status";
-  static final String MULTIPLE_RECORDS_MIME_TYPE = "vnd.android.cursor.dir/vnd.marakana.android.lifecycle.status";
+  static final String SINGLE_RECORD_MIME_TYPE = "vnd.android.cursor.item/vnd.example.android.lifecycle.status";
+  static final String MULTIPLE_RECORDS_MIME_TYPE = "vnd.android.cursor.dir/vnd.example.android.lifecycle.status";
 
   @Override
   public boolean onCreate() {

@@ -75,10 +75,10 @@ public class ActivityDemo extends ActionBarActivity {
       stopService(new Intent(this, ServiceDemo.class));
       return true;
     case R.id.item_refresh:
-      startService(new Intent("marakana.intent.action.IntentServiceDemo"));
+      startService(new Intent("example.intent.action.IntentServiceDemo"));
       return true;
     case R.id.item_send_broadcast:
-      sendBroadcast(new Intent("marakana.intent.action.ReceiverDemo"));
+      sendBroadcast(new Intent("example.intent.action.ReceiverDemo"));
       return true;
     case R.id.item_location:
       startActivity(new Intent(this, SystemServicesDemo.class));
