@@ -26,6 +26,7 @@ obj/*
 libs/*
 gen/*
 bin/*
+build/*
 
 # Logs               #
 ######################
@@ -38,7 +39,10 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
-# Eclipse Artifacts #
+# Studio Artifacts #
 #####################
-.metadata/*
+.gradle
+local.properties
+.idea/
+*.iml
 
